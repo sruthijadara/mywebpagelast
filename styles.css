@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-card {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.header {
+    text-align: center;
+}
+
+.email {
+    color: gray;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.title {
+    color: gray;
+    font-size: 14px;
+}
+
+/* Action buttons */
+.actions {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #007aff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #005bb5;
+}
+
+/* Contact information */
+.contact-info {
+    font-size: 14px;
+}
+
+.contact-info a {
+    color: #007aff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Map section */
+.map {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.map iframe {
+    max-width: 50%;
+    border-radius: 5px;
+}
+}
+
+/* Footer buttons */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.footer .btn {
+    background-color: #f0f0f5;
+    color: #333;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+}
+
+.footer .btn:hover {
+    background-color: #e0e0eb;
+}
